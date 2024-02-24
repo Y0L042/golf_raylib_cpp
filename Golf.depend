@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1708800209 source:g:\projects\cpp_projects\golf\src\main.cpp
+	<iostream>
+	"raylib.h"
+
+1700309226 g:\projects\cpp_projects\golf\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
