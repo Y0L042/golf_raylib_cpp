@@ -30,16 +30,34 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++14" />
 			<Add option="-DPLATFORM_DESKTOP" />
 			<Add directory="include" />
 		</Compiler>
 		<Linker>
+			<Add option="-lopengl32" />
+			<Add option="-lgdi32" />
+			<Add option="-lwinmm" />
 			<Add library="libraylibdll" />
 			<Add directory="lib" />
 		</Linker>
-		<Unit filename="include/raylib.h" />
-		<Unit filename="include/raymath.h" />
-		<Unit filename="include/rlgl.h" />
+		<Unit filename="include/raylib.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="include/raymath.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="include/rlgl.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/game.hpp">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="src/gameobject.cpp" />
+		<Unit filename="src/gameobject.hpp">
+			<Option compile="1" />
+		</Unit>
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
