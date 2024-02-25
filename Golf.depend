@@ -7,3 +7,33 @@
 	<stdarg.h>
 	<stdbool.h>
 
+1708854716 source:c:\projects\cpp_projects\golf_raylib_cpp\src\main.cpp
+	<iostream>
+	"raylib.h"
+
+1700309226 c:\projects\cpp_projects\golf_raylib_cpp\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1700309226 source:c:\projects\cpp_projects\golf_raylib_cpp\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1700309226 source:c:\projects\cpp_projects\golf_raylib_cpp\include\raymath.h
+	<math.h>
+
+1700309226 source:c:\projects\cpp_projects\golf_raylib_cpp\include\rlgl.h
+	<stdbool.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	"external/glad.h"
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	"external/glad_gles2.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+

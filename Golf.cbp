@@ -30,6 +30,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-DPLATFORM_DESKTOP" />
 			<Add directory="include" />
 		</Compiler>
 		<Linker>
